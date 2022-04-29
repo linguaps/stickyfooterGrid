@@ -1,0 +1,50 @@
+
+* { 
+    box-sizing: border-box;
+    margin: 0;
+}
+
+
+
+.container {
+    border:5px solid red;
+    display: grid;
+    height: 100vh;
+    
+}
+
+.container__main {
+    border:5px solid blue;
+    display:grid;
+    grid-auto-flow: column;
+    height:90vh;
+    /* Take the remaining height */
+   
+
+    /* Layout the left sidebar, main content and right sidebar */
+   
+}
+
+.container__left {
+    border:5px solid green;
+    
+    
+}
+
+.container__middle {
+    /* Take the remaining width */
+    
+    border:5px solid yellow;
+ 
+}
+
+.container__right {
+    border:5px solid purple;
+    
+}
+
+footer {
+    border:5px solid black;
+    margin:auto;
+    width: 100%;
+}
